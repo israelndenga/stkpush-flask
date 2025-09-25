@@ -1,1 +1,1 @@
-web: gunicorn app:stkpush.py
+web: gunicorn stkpush:app
