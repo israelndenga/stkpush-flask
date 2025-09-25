@@ -1,4 +1,12 @@
 from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello, your Render app is live 🚀"
+
+from flask import Flask, request, jsonify
 import requests
 import datetime
 import base64
